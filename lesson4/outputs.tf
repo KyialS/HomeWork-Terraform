@@ -1,6 +1,6 @@
 output "instance_ids" {
   description = "ID  EC2"
-  value       = [aws_instance.instance1.id , aws_instance.instance2]
+  value       = [aws_instance.instance1.id , aws_instance.instance2.id]
 }
 
 output "subnet_ids" {
